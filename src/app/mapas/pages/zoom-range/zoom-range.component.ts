@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, ElementRef, OnDestroy, OnInit, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, OnDestroy, ViewChild } from '@angular/core';
 import * as mapboxgl from 'mapbox-gl';
 
 @Component({
@@ -9,7 +9,8 @@ import * as mapboxgl from 'mapbox-gl';
       width: 100%;
       height: 100%;
     }
-
+    
+    /** controld e zoom*/
     .row{
       background-color: white;
       border-radius: 5px;
